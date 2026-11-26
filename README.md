@@ -1,4 +1,5 @@
-```# 1. Basic Image Operations.
+```
+# 1. Basic Image Operations.
 #     - a. Read and display image.
 #     - b. Resize a given image.
 #     - c. Convert a given color image into a corresponding gray-scale image.
