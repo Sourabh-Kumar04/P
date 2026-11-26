@@ -1,4 +1,4 @@
-`# 1. Basic Image Operations.
+```# 1. Basic Image Operations.
 #     - a. Read and display image.
 #     - b. Resize a given image.
 #     - c. Convert a given color image into a corresponding gray-scale image.
@@ -69,9 +69,9 @@ plt.close()
 
 print("All outputs saved to result/program1/")
 
-`
+```
 ---------
-`
+```
 # 2. Point Processing Methods.
 #     - a. Obtain negative image.
 #     - b. Obtain flip image.
@@ -114,9 +114,9 @@ cv2.imwrite("result/program2/contrast_stretched.jpg", stretched)
 
 print("All outputs saved to result/program2/")
 
-`
+```
 ----------
-`
+```
 # 3. Image Arithmetic Operations.
 #     - a. Addition of two images.
 #     - b. Subtract one image from other image.
@@ -167,9 +167,9 @@ cv2.imwrite("result/program3/brightened.jpg", brightened)
 cv2.imwrite("result/program3/darkened.jpg", darkened)
 
 print("All outputs saved to result/program3/")
-`
+```
 -------
-`
+```
 # 4. Image Logical Operations.
 #     - a. AND operation between two images.
 #     - b. OR operation between two images.
@@ -220,9 +220,9 @@ not_img1 = cv2.bitwise_not(img1)
 cv2.imwrite("result/program4/not_image1.jpg", not_img1)
 
 print("All outputs saved to result/program4/")
-`
+```
 -------
-`
+```
 # 5. Histogram Calculation and Equalization.
 #     - a. Using inbuilt function.
 #     - b. Without using inbuilt function.
@@ -296,9 +296,9 @@ plt.savefig("result/program5/equalized_histogram.png")
 plt.close()
 
 print("All outputs saved to result/program5/")
-`
+```
 -------
-`
+```
 # 6. Geometric Transformations.
 #     - a. Translation.
 #     - b. Scaling.
@@ -342,9 +342,9 @@ zoomed = cv2.resize(img, None, fx=3.0, fy=3.0, interpolation=cv2.INTER_CUBIC)
 cv2.imwrite("result/program6/zoomed.jpg", zoomed)
 
 print("All outputs saved to result/program6/")
-`
+```
 --------
-`
+```
 # 7. Noise Models and Restoration.
 #     - a. Image restoration.
 #     - b. Remove salt and pepper noise.
@@ -417,9 +417,9 @@ sp_wiener = np.clip(wiener(sp_noisy.astype(np.float32), mysize=5, noise=None), 0
 cv2.imwrite("result/program7/sp_wiener.jpg", sp_wiener)
 
 print("All outputs saved to result/program7/")
-`
+```
 --------
-`
+```
 # 8. Spatial Filtering.
 #     - a. Understand 1-D and 2-D convolution process.
 #     - b. Use 3x3 mask for low pass filter and high pass filter.
@@ -463,9 +463,9 @@ hp = np.clip(hp,0,255).astype(np.uint8)
 cv2.imwrite("result/program8/high_pass.jpg", hp)
 
 print("All outputs saved to result/program8/")
-`
+```
 -------
-`
+```
 # 9. Frequency Domain Filtering.
 #     - a. Apply FFT on given image.
 #     - b. Perform low pass and high pass filtering in frequency domain.
@@ -513,9 +513,9 @@ cv2.imwrite("result/program9/low_pass_mask.jpg", mask_lp)
 cv2.imwrite("result/program9/high_pass_mask.jpg", mask_hp)
 
 print("All outputs saved to result/program9/")
-`
+```
 ------
-`
+```
 # 10. Edge Detection.
 #     - Edge detection using different edge detection mask.
 
@@ -566,9 +566,9 @@ cv2.imwrite("result/program10/roberts.jpg", rob)
 cv2.imwrite("result/program10/canny.jpg", can)
 
 print("All outputs saved to result/program10/")
-`
+```
 -----
-`
+```
 # 11. Morphological Operations.
 #     - Image morphological operations: erosion and dilation.
 
@@ -597,6 +597,6 @@ cv2.imwrite("result/program11/erosion.jpg", er)
 cv2.imwrite("result/program11/dilation.jpg", di)
 
 print("All outputs saved to result/program11/")
-`
+```
 ------
 
